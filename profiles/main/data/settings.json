@@ -1,0 +1,166 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[guidedtrack]": {
+    "editor.rulers": [80],
+    "editor.wordWrapColumn": 80
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "bounded"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.rulers": [88],
+    "editor.wordWrapColumn": 88
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.agent.maxRequests": 0,
+  "chat.commandCenter.enabled": false,
+  "chat.editor.fontSize": 13,
+  "chat.editor.fontWeight": "400",
+  "debug.console.fontFamily": "\"Geist Mono\", \"Cascadia Code\", \"Fira Mono\", monospace",
+  "debug.console.fontSize": 13,
+  "editor.codeLensFontFamily": "\"Geist Mono\", \"Cascadia Code\", \"Fira Mono\", monospace",
+  "editor.colorDecorators": false,
+  "editor.find.seedSearchStringFromSelection": "never",
+  "editor.fontFamily": "\"Geist Mono\", \"Cascadia Code\", \"Fira Mono\", monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 13,
+  "editor.fontWeight": 400,
+  "editor.hover.above": false,
+  "editor.hover.enabled": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.inlayHints.fontFamily": "\"Geist Mono\", \"Cascadia Code\", \"Fira Mono\", monospace",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorLimit": 1,
+  "editor.parameterHints.enabled": false,
+  "editor.peekWidgetDefaultFocus": "editor",
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "other": "on",
+    "strings": "on"
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.rename.enablePreview": false,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80],
+  "editor.stickyScroll.enabled": false,
+  "editor.suggest.showInlineDetails": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.wordWrap": "bounded",
+  "editor.wrappingIndent": "indent",
+  "emmet.excludeLanguages": ["css", "html", "javascript", "markdown"],
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.quiet": true,
+  "eslint.run": "onSave",
+  "eslint.validate": ["html", "javascript"],
+  "explorer.autoReveal": "focusNoScroll",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "git.detectSubmodulesLimit": 999,
+  "git.openRepositoryInParentFolders": "always",
+  "html.completion.attributeDefaultValue": "empty",
+  "html.format.wrapLineLength": 80,
+  "isort.args": ["--profile", "ruff"],
+  "javascript.preferences.jsxAttributeCompletionStyle": "none",
+  "javascript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "markdown.preview.fontSize": 13,
+  "php.suggest.basic": false,
+  "php.validate.enable": false,
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.enablePytestSupport": false,
+  "python.analysis.inlayHints.callArgumentNames": true,
+  "python.defaultInterpreterPath": "/home/josh/storage/apps/fake-conda/bin/python",
+  "python.experiments.enabled": false,
+  "python.experiments.optOutFrom": ["All"],
+  "python.languageServer": "Pylance",
+  "python.missingPackage.severity": "Warning",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.testing.autoTestDiscoverOnSaveEnabled": false,
+  "python.testing.promptToConfigure": false,
+  "ruff.codeAction.disableRuleComment": {
+    "enable": false
+  },
+  "ruff.codeAction.fixViolation": {
+    "enable": false
+  },
+  "ruff.lineLength": 88,
+  "ruff.nativeServer": "on",
+  "scm.inputFontFamily": "\"Geist Mono\", \"Cascadia Code\", \"Fira Mono\", monospace",
+  "search.quickOpen.includeHistory": false,
+  "search.searchOnType": false,
+  "search.smartCase": true,
+  "security.workspace.trust.enabled": false,
+  "settingsSync.ignoredSettings": [
+    "-python.condaPath",
+    "-python.defaultInterpreterPath"
+  ],
+  "task.quickOpen.history": 0,
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.linuxExec": "/usr/bin/x-terminal-emulator",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.fontFamily": "\"Geist Mono\", \"Cascadia Code\", \"Fira Mono\", monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.shellIntegration.history": 0,
+  "terminal.integrated.tabStopWidth": 2,
+  "typescript.preferences.jsxAttributeCompletionStyle": "none",
+  "update.mode": "manual",
+  "update.showReleaseNotes": false,
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Bearded Theme Light",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": false,
+  "workbench.reduceMotion": "on",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "always",
+  "color-highlight.markerType": "dot-before",
+  "color-highlight.markRuler": false,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+  "editor.inlineSuggest.enabled": false,
+  "editor.snippetSuggestions": "none"
+}
